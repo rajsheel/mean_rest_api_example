@@ -1,0 +1,19 @@
+{
+  "name": "mean_rest_api_example",
+  "version": "1.0.0",
+  "description": "rest api examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajsheel/mean_rest_api_example.git"
+  },
+  "author": "atul rajsheel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajsheel/mean_rest_api_example/issues"
+  },
+  "homepage": "https://github.com/rajsheel/mean_rest_api_example#readme"
+}
