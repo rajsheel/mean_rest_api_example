@@ -1,19 +1,22 @@
 {
   "name": "mean_rest_api_example",
-  "version": "1.0.0",
-  "description": "rest api examples",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rajsheel/mean_rest_api_example.git"
+  "dependencies": {
+    "async": "^2.6.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.0.13",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
   },
-  "author": "atul rajsheel",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rajsheel/mean_rest_api_example/issues"
-  },
-  "homepage": "https://github.com/rajsheel/mean_rest_api_example#readme"
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
 }
