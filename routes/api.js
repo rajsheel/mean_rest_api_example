@@ -31,6 +31,11 @@ var zipcodesController = require('../controllers/zipcodesController');
 // router.post('/book/:id/update', book_controller.book_update_post);
 
 // GET request for one zip code.
+router.get('/', function(req, res, next) {
+  res.send("You have reached API testing page, try some calls");
+});
+
+// GET request for one zip code.
 router.get('/zip/:id', zipcodesController.zipcode_details);
 
 // GET request for list of city based on partual city name.
