@@ -3,7 +3,7 @@ var router = express.Router();
 
 // Require controller modules.
 var zipcodesController = require('../controllers/zipcodesController');
-// var author_controller = require('../controllers/authorController');
+var clientController = require('../controllers/clientController');
 // var genre_controller = require('../controllers/genreController');
 // var book_instance_controller = require('../controllers/bookinstanceController');
 
@@ -40,6 +40,9 @@ router.get('/zip/:id', zipcodesController.zipcode_details);
 
 // GET request for list of city based on partual city name.
 router.get('/city/:name', zipcodesController.city_list);
+
+// GET request for list of city based on partual city name.
+router.post('/client/create', clientController.client_create_post);
 
 // GET request for city details based on exact city name.
 // // GET request for list of all Book items.
