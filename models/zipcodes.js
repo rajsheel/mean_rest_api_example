@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 var ZipCodeSchema = new Schema(
   {
-    _id : String,
+    _id : {type: String, required: true},
     city: {type: String, required: true},
    
     loc: [{type: Number}],

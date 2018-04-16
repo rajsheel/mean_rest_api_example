@@ -41,8 +41,18 @@ router.get('/zip/:id', zipcodesController.zipcode_details);
 // GET request for list of city based on partual city name.
 router.get('/city/:name', zipcodesController.city_list);
 
-// GET request for list of city based on partual city name.
+// POST request to create a new client.
 router.post('/client/create', clientController.client_create_post);
+
+// GET request to get client, use with query parameters of id or name but not both.
+router.get('/client/search', clientController.client_search_get);
+
+// POST request to updaet an existing client.
+router.post('/client/update', clientController.client_update_post);
+
+// POST request to delete an existing client.
+router.post('/client/delete', clientController.client_delete_post);
+
 
 // GET request for city details based on exact city name.
 // // GET request for list of all Book items.
