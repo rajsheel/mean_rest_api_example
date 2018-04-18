@@ -16,7 +16,8 @@
     "mongoose": "^5.0.13",
     "morgan": "~1.9.0",
     "npm": "^5.8.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "serverless-http": "^1.5.5"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
