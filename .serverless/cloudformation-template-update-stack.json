@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/mean-rest-api-example/dev/1523930096238-2018-04-17T01:54:56.238Z/mean-rest-api-example.zip"
+          "S3Key": "serverless/mean-rest-api-example/dev/1524087222808-2018-04-18T21:33:42.808Z/mean-rest-api-example.zip"
         },
         "FunctionName": "mean-rest-api-example-dev-app",
         "Handler": "app.handler",
@@ -228,7 +228,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1523930096364": {
+    "ApiGatewayDeployment1524087222930": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
